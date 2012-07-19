@@ -6,9 +6,9 @@ jMFB is program to translate MIUI v4 android firmwares
 
 2. Unpack ZIP file to folder with path without spaces
 
-3. (Optional)
-   nix users: Make files in /aApps/nix/ executable
-   mac users: Make files in /aApps/osx/ executable
+3. [(Optional)]
+   * nix users: Make files in /aApps/nix/ executable
+   * mac users: Make files in /aApps/osx/ executable
 
 4. Start <b>jMFB.jar</b>
 
@@ -20,7 +20,7 @@ jMFB is program to translate MIUI v4 android firmwares
 
 8. Click <b>Decompile Firmware</b> button
 
-9. (Optional) Make changes to the firmware
+9. [(Optional)] Make changes to the firmware
 
 10. Click Build Firmware and follow instruction in program
 
