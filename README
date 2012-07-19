@@ -1,0 +1,1 @@
+Re-uploading to other repositories prohibited. You may not copy, use in other programs, as well as the use of algorithms from the code. All rights reserved. Legal support in the U.S. operated by AndroTech.
