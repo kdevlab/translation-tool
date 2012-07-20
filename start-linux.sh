@@ -1,4 +1,3 @@
-#!/bin/sh
-ROOT_PATH=$(cd $(dirname $0) && pwd);
+ROOT_PATH=.
 cd $ROOT_PATH
 java -jar jMFB.jar
