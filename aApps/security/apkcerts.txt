@@ -367,7 +367,7 @@ name="SpeechRecorder.apk" certificate="testkey.x509.pem" private_key="testkey.pk
 name="Stk.apk" certificate="platform.x509.pem" private_key="platform.pk8"
 name="SuperMarket.apk" certificate="platform.x509.pem" private_key="platform.pk8"
 name="Tag.apk" certificate="testkey.x509.pem" private_key="testkey.pk8"
-name="ThemeManager.apk" certificate="platform.x509.pem" private_key="platform.pk8"
+name="ThemeManager.apk" certificate="PRESIGNED"
 name="Torch.apk" certificate="platform.x509.pem" private_key="platform.pk8"
 name="Updater.apk" certificate="platform.x509.pem" private_key="platform.pk8"
 name="VideoEditor.apk" certificate="testkey.x509.pem" private_key="testkey.pk8"
