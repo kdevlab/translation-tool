@@ -403,4 +403,7 @@ name="CameraEffectsRecordingSample.apk" certificate="testkey.x509.pem" private_k
 name="CameraEffectsTests.apk" certificate="testkey.x509.pem" private_key="testkey.pk8"
 name="native-media.apk" certificate="platform.x509.pem" private_key="platform.pk8"
 name="WeatherProvider.apk" certificate="testkey.x509.pem" private_key="testkey.pk8"
+name="AlipayMsp.apk" certificate="testkey.x509.pem" private_key="testkey.pk8"
+name="GameCenter.apk" certificate="testkey.x509.pem" private_key="testkey.pk8"
+name="MiuiVideo.apk" certificate="testkey.x509.pem" private_key="testkey.pk8"
 name="GuardProvider.apk" certificate="PRESIGNED" private_key=""
