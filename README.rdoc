@@ -1,8 +1,8 @@
-== Welcome to jMFB
-jMFB is program to translate MIUI v4 android firmwares
+== Welcome to Translation Tool
+Translation Tool is program to translate android firmwares
 
 == Getting Started
-1. {Download}[link:KDGDev/jMFB-program/zipball/master] newest distributive
+1. {Download}[KDGDev/translation-program/zipball/master] newest distributive
 
 2. Unpack ZIP file to folder with path without spaces
 
