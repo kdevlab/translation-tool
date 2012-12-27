@@ -2,7 +2,7 @@
 Translation Tool is program to translate android firmwares
 
 == Getting Started
-1. {Download}[https://github.com/KDGDev/translation-tool-miui/archive/master.zip] newest distributive
+1. {Download}[https://github.com/KDGDev/translation-tool/archive/master.zip] newest distributive
 
 2. Unpack ZIP file to folder with path without spaces
 
@@ -10,7 +10,7 @@ Translation Tool is program to translate android firmwares
    * nix users: Make files in /aApps/nix/ executable
    * mac users: Make files in /aApps/osx/ executable
 
-4. Start <b>jMFB.jar</b>
+4. Start <b>MIUI.jar</b> (For translating MIUI firmwares) or <b>FlymeOS.jar</b> (For Flyme OS firmwares)
 
 5. Create or open project (<i>File -> New project…</i> or <i>File -> Open project…</i>)
 
