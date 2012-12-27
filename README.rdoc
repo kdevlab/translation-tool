@@ -2,7 +2,7 @@
 Translation Tool is program to translate android firmwares
 
 == Getting Started
-1. {Download}[KDGDev/translation-program/zipball/master] newest distributive
+1. {demo app}[http://github.com/neworganizing/rails_vip_demo] newest distributive
 
 2. Unpack ZIP file to folder with path without spaces
 
