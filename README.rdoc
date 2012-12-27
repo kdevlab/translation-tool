@@ -2,7 +2,7 @@
 Translation Tool is program to translate android firmwares
 
 == Getting Started
-1. {Download}[https://github.com/KDGDev/translation-program/archive/master.zip] newest distributive
+1. {Download}[https://github.com/KDGDev/translation-tool-miui/archive/master.zip] newest distributive
 
 2. Unpack ZIP file to folder with path without spaces
 
