@@ -1,0 +1,48 @@
+<h1>Documentation for KDev Group Script Engine (Modified Luaj Engine)</h1>
+
+<h2>Features:</h2>
+<ul>
+<li>Lua interpreter written in Java</li>
+<li>Support for 5.2 language spec, libraries</li>
+<li>Fast execution - faster than C for some benchmarks</li>
+<li>luajava API support</li>
+</ul>
+
+<h2>for making new script:</h2>
+<ol>
+<li>Create new directory in this folder</li>
+<li>Create two files: buildprop.lua and rebuilder.lua</li>
+</ol>
+
+<h2>Documentation for buildprop.lua (additional functions):</h2>
+  <p>variable (string) timezone - used for getting timezone, setted in CloudBuildr X settings</p>
+  <p>variable (boolean) noota - used for getting noota flag, setted in CloudBuildr X settings</p>
+  <p>function setProp(&lt;property name>, &lt;property value>) - used for setting or adding new values in build.prop. Example: setProp('ro.build.type', 'user')</p>
+  <p>function getUserName() - used for getting computer user name</p>
+  <p>function getHostName() - used for getting host name</p>
+  <p>function getBuildDate() - used for getting valid build date</p>
+  <p>function getUTCBuildDate() - used for getting valid build date in UTC</p>
+  <p>function getLanguage() - used for setting firmware language. Example: setProp('ro.product.locale.language', getLanguage())</p>
+  <p>function getRegion() - used for setting firmware region. Example: setProp('ro.product.lolcale.region', getRegion())</p>
+
+<h2>Documentation for rebuilder.lua:</h2>
+  <p>use this template for replacing strings or functions:</p>
+  <pre>jWriteLog('Processing script...')
+  function file_exists(name)
+    local f=io.open(name,"r")
+    if f~=nil then io.close(f) return true else return false end
+  end
+
+  if ApkName == "&lt;apk name>" then
+    jWriteLog('Processing &lt;apk name>...')
+    local fileName = Apk .. fixSep('&lt;file for replacing>')
+    if file_exists(fileName) then
+      local fileString = getStringFromFile(fileName)
+      fileString = jReplace(fileString, '&lt;old string>', '&lt;new string>')
+      --example: changing method ".method public final a()Z" 
+      fileString = jReplaceSmaliFunction(fileString, [[.method public final a()Z]], [[.locals 7
+      const/4 v0, 0x1
+      return v0]])
+      writeStringToFile(fileName, fileString)
+  end
+jWriteLog('End of processing.')</pre>
